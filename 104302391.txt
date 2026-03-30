@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B;
+    cin >> A >> B;
+
+    cout << A + B << endl;  // 덧셈
+    cout << A - B << endl;  // 뺄셈
+    cout << A * B << endl;  // 곱셈
+    cout << A / B << endl;  // 몫
+    cout << A % B << endl;  // 나머지
+
+    return 0;
+}
